@@ -1,13 +1,13 @@
-# 📍 Travel Recommendation System
-A Machine Learning model to suggest travel destinations in India based on user preferences.
+#📍 Travel Recommendation System
+-A Machine Learning model to suggest travel destinations in India based on user preferences.
 
-🚀 Concept
-This project takes user input on preferences like zone, type of place, best time to visit, entrance fee, and other features — and recommends the most relevant places to explore in India.
+#🚀 Concept
+-This project takes user input on preferences like zone, type of place, best time to visit, entrance fee, and other features — and recommends the most relevant places to explore in India.
 
-📂 Dataset
-Source: Collected from Kaggle
+#📂 Dataset
+-Source: Collected from Kaggle
 
-Size: 325 rows × 16 columns
+-Size: 325 rows × 16 columns
 
 Features:
 
