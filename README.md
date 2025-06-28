@@ -1,4 +1,4 @@
-📍 Travel Recommendation System
+# 📍 Travel Recommendation System
 A Machine Learning model to suggest travel destinations in India based on user preferences.
 
 🚀 Concept
@@ -29,8 +29,7 @@ Target column (name) has 321 unique values.
 One unnecessary index column (Unnamed: 0) removed.
 
 🧹 Data Cleaning & Preparation
-Key preprocessing steps:
-
+Key preprocessing steps
 Dropped Unnamed: 0 and other unnecessary columns (significance, weekly off, rating, number of reviews).
 
 Renamed columns for better clarity and converted names to lowercase.
@@ -69,14 +68,13 @@ GitHub – Version control
 Kaggle – Data collection source
 
 🧩 Model
-Preprocessing:
+Preprocessing
 One-hot encoding for categorical columns using ColumnTransformer.
 
-Algorithm:
+Algorithm
 NearestNeighbors with cosine similarity to find similar places based on user input.
 
-Workflow:
-
+Workflow
 User provides input (zone, type, fee, best time, etc.).
 
 Filter data by selected zone.
@@ -85,4 +83,3 @@ Encode features using the saved preprocessor.
 
 Find nearest neighbors within the filtered data.
 
-Recommend top matches to the user.
